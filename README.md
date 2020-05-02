@@ -17,12 +17,3 @@ function templ() {
 cp ~/vorlagen/template.tex $NAME.tex
 }
 ```
-
-
-### Change username:
-
-To change the username run those two commands:
-
-`sed -i "s/alex/$USER/g" ~/vorlagen/vorlage.tex`
-
-`sed -i "s/alex/$USER/g" ~/vorlagen/template.tex`
