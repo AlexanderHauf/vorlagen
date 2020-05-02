@@ -1,9 +1,10 @@
-\usepackage{ucs}
-\usepackage[utf8x]{inputenc}
+%\usepackage{ucs}
+\usepackage[utf8]{inputenc}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\usepackage{ngerman}
 \usepackage{multicol}
 \usepackage{pdfpages}
 \usepackage{mathrsfs}
@@ -12,5 +13,15 @@
 \usepackage{ragged2e}
 \usepackage{placeins}
 \usepackage{caption}
+\usepackage{trfsigns} %typesetting laplace / fourier
 
 \pagestyle{headings}
+
+\setlength\intextsep{1pt}
+
+\usepackage[backend=biber, style=ieee]{biblatex}
+\usepackage{csquotes}
+\addbibresource{$HOME/vorlagen/alex.bib}
+
+\let\oldlaplace\laplace
+\renewcommand*{\laplace}{\hspace{3mm}\oldlaplace\hspace{3mm}}
