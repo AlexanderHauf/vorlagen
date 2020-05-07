@@ -1,0 +1,11 @@
+*.aux
+*.log
+*.bbl
+*.xml
+*.bcf
+*.blg
+*.toc
+*.bak
+compileFile.tex
+.tempOutFile
+*.mp4
