@@ -1,5 +1,7 @@
+#LaTeX
 *.aux
 *.log
+#biber
 *.bbl
 *.xml
 *.bcf
@@ -8,4 +10,7 @@
 *.bak
 compileFile.tex
 .tempOutFile
+#videos
 *.mp4
+#jupyter-notebook
+*/.ipynb_checkpoints/
