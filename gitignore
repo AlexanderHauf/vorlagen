@@ -10,6 +10,14 @@
 *.bak
 compileFile.tex
 .tempOutFile
+*.acn
+*.idx
+*.ist
+*.lof
+*.lol
+*.lot
+*.out
+*.sbl
 #videos
 *.mp4
 #jupyter-notebook
