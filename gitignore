@@ -18,6 +18,7 @@ compileFile.tex
 *.lot
 *.out
 *.sbl
+.tex-output/
 #videos
 *.mp4
 #jupyter-notebook
